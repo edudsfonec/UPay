@@ -14,6 +14,8 @@ Processamento de Streams: Utilização das Streams API do Java 8+ para filtrar, 
 
 Controle de Versão: Uso de Git e GitHub para gerenciamento de código e colaboração.
 
+-----
+
 Visão Geral da API:
 O Upay expõe os seguintes endpoints:
 
