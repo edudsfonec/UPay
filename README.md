@@ -16,7 +16,8 @@ Controle de Versão: Uso de Git e GitHub para gerenciamento de código e colabor
 
 -----
 
-Visão Geral da API:
+## Visão Geral da API:
+
 O Upay expõe os seguintes endpoints:
 
 POST /transacao: Adiciona uma nova transação.
