@@ -1,29 +1,27 @@
+Here's the English translation of the provided text:
+
 # UPay
-**Upay** é uma API RESTful para gerenciar transações financeiras e fornecer estatísticas em tempo real. Desenvolvido como um desafio para exercitar e aprimorar conhecimentos em desenvolvimento back-end, o Upay foca na construção de uma solução robusta e eficiente para manipulação de dados em memória.
+**Upay** is a RESTful API designed to manage financial transactions and provide real-time statistics. Developed as a challenge to practice and enhance back-end development skills, Upay focuses on building a robust and efficient solution for in-memory data manipulation.
 
-Habilidades e Tecnologias Destacadas:
-Java e Spring Boot: Construção de uma aplicação web escalável e de fácil manutenção utilizando o ecossistema Spring Boot.
+---
 
-APIs RESTful: Implementação de endpoints (POST /transacao, DELETE /transacao, GET /estatistica) seguindo as melhores práticas de design de API.
+## Highlighted Skills and Technologies:
 
-Gerenciamento de Dados em Memória: Armazenamento e processamento de transações em memória usando ConcurrentLinkedQueue para garantir segurança de thread e alto desempenho.
+* **Java and Spring Boot:** Building a scalable and maintainable web application using the Spring Boot ecosystem.
+* **RESTful APIs:** Implementing endpoints (POST /transactions, DELETE /transactions, GET /statistics) following API design best practices.
+* **In-Memory Data Management:** Storing and processing transactions in memory using **ConcurrentLinkedQueue** to ensure thread safety and high performance.
+* **Data Validation:** Applying rigorous validations for input data and proper error handling (HTTP status codes 400 and 422).
+* **Stream Processing:** Utilizing Java 8+ **Streams API** to efficiently and concisely filter, transform, and calculate statistics, including the use of **DoubleSummaryStatistics**.
+* **Version Control:** Using **Git** and **GitHub** for code management and collaboration.
 
-Validação de Dados: Aplicação de validações rigorosas para dados de entrada e tratamento de erros adequado (códigos de status HTTP 400 e 422).
+---
 
-Processamento de Streams: Utilização das Streams API do Java 8+ para filtrar, transformar e calcular estatísticas de forma eficiente e concisa, incluindo o uso de DoubleSummaryStatistics.
+## API Overview:
 
-Controle de Versão: Uso de Git e GitHub para gerenciamento de código e colaboração.
+Upay exposes the following endpoints:
 
------
+* **POST /transactions:** Adds a new transaction.
+* **DELETE /transactions:** Clears all stored transactions.
+* **GET /statistics:** Returns aggregated statistics (sum, average, minimum, maximum, count) for transactions from the last 60 seconds.
 
-## Visão Geral da API:
-
-O Upay expõe os seguintes endpoints:
-
-POST /transacao: Adiciona uma nova transação.
-
-DELETE /transacao: Limpa todas as transações armazenadas.
-
-GET /estatistica: Retorna estatísticas agregadas (soma, média, mínimo, máximo, contagem) para transações dos últimos 60 segundos.
-
-Este projeto demonstra a capacidade de construir soluções back-end eficientes, aderindo a requisitos específicos e otimizando o processamento de dados em tempo real.
+This project demonstrates the ability to build efficient back-end solutions, adhering to specific requirements and optimizing real-time data processing.
