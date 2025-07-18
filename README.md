@@ -1,4 +1,3 @@
-Here's the English translation of the provided text:
 
 # UPay
 **Upay** is a RESTful API designed to manage financial transactions and provide real-time statistics. Developed as a challenge to practice and enhance back-end development skills, Upay focuses on building a robust and efficient solution for in-memory data manipulation.
